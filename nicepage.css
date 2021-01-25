@@ -31242,12 +31242,25 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-footer .u-sheet-1 {
     min-height: 239px;
   }
+
+  .u-footer .u-btn-1 {
+    font-size: 0.875rem;
+  }
 }
 
 
 @media (max-width: 575px) {
-  .u-footer .u-text-1 {
-    margin-bottom: 60px;
+  .u-footer .u-sheet-1 {
+    min-height: 156px;
+  }
+
+  .u-footer .u-text-2 {
+    width: 174px;
+    margin-top: -4px;
+  }
+
+  .u-footer .u-btn-1 {
+    font-size: 1.125rem;
   }
 }
 
