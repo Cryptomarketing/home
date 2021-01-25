@@ -31000,6 +31000,12 @@ a.u-link.u-text-hover-grey-90:hover {
         {
         margin-top: 20px;
         margin-bottom: 20px;
+        font-size: 0.875rem;
+        font-style: italic;
+        line-height: 1.8;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
+        font-family: Roboto,sans-serif;
         }
         .u-btn
         {
