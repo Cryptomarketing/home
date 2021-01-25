@@ -31236,15 +31236,12 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-btn-1 {
+  font-size: 0.875rem;
   padding: 0;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
     min-height: 239px;
-  }
-
-  .u-footer .u-btn-1 {
-    font-size: 0.875rem;
   }
 }
 
