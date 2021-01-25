@@ -31223,7 +31223,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 275px;
+  min-height: 239px;
 }
 
 .u-footer .u-text-1 {
@@ -31234,7 +31234,11 @@ a.u-link.u-text-hover-grey-90:hover {
   width: 140px;
   margin: 38px auto 60px;
 }
-
+@media (max-width: 1199px) {
+  .u-footer .u-sheet-1 {
+    min-height: 239px;
+  }
+}
 
 
 @media (max-width: 575px) {

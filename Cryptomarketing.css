@@ -252,7 +252,7 @@
 .u-section-4 .u-btn-1 {
   background-image: none;
   text-transform: uppercase;
-  font-size: 1.125rem;
+  font-size: 0.875rem;
   letter-spacing: 2px;
   margin: 30px auto 0;
   padding: 11px 24px 11px 23px;
@@ -987,30 +987,31 @@
 }
 
 .u-section-11 .u-text-3 {
-  z-index: 99999;
-  margin: 20px 20px 0;
+  margin: 60px 20px 0;
 }
 
 .u-section-11 .u-btn-3 {
+  text-decoration: underline !important;
   padding: 0;
 }
 
 .u-section-11 .u-image-1 {
   width: 247px;
   height: 211px;
-  margin: 30px auto 0 429px;
+  margin: 17px auto 0;
 }
 
 .u-section-11 .u-text-4 {
-  margin: 60px 20px 0;
+  font-size: 1.25rem;
+  margin: 11px 20px 0;
 }
 
 .u-section-11 .u-text-5 {
-  z-index: 99999;
-  margin: 20px 20px 0;
+  margin: 60px 20px 0;
 }
 
 .u-section-11 .u-btn-4 {
+  text-decoration: underline !important;
   padding: 0;
 }
 
@@ -1019,11 +1020,12 @@
   height: 253px;
   background-image: url("images/logocomandopablo1.jpg");
   background-position: 50% 50%;
-  margin: 30px auto 0 435px;
+  margin: 37px auto 0;
 }
 
 .u-section-11 .u-text-6 {
-  margin: 30px 20px 60px;
+  font-size: 1.25rem;
+  margin: 37px 20px 60px;
 }
 
 @media (max-width: 1199px) {
@@ -1058,46 +1060,22 @@
   }
 }
 
-@media (max-width: 767px) {
-  .u-section-11 .u-image-1 {
-    margin-left: 293px;
-  }
-
-  .u-section-11 .u-image-2 {
-    margin-left: 287px;
-  }
-}
-
 @media (max-width: 575px) {
-  .u-section-11 .u-sheet-1 {
-    min-height: 1661px;
-  }
-
   .u-section-11 .u-text-2 {
     font-size: 1.125rem;
     margin-top: 49px;
   }
 
-  .u-section-11 .u-text-3 {
-    margin-top: 254px;
-  }
-
   .u-section-11 .u-image-1 {
-    margin-top: -290px;
-    margin-left: auto;
+    margin-top: -20px;
   }
 
   .u-section-11 .u-text-4 {
     margin-top: 122px;
   }
 
-  .u-section-11 .u-text-5 {
-    margin-top: 43px;
-  }
-
   .u-section-11 .u-image-2 {
-    margin-top: 43px;
-    margin-left: auto;
+    margin-top: 165px;
   }
 
   .u-section-11 .u-text-6 {
@@ -1287,7 +1265,7 @@
     margin-right: 0;
   }
 }.u-section-15 .u-sheet-1 {
-  min-height: 458px;
+  min-height: 18px;
 }
 
 @media (max-width: 575px) {
