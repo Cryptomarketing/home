@@ -31269,12 +31269,13 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
-    min-height: 156px;
+    min-height: 129px;
   }
 
   .u-footer .u-text-2 {
     width: 174px;
-    margin-top: -4px;
+    margin-top: -20px;
+    margin-bottom: 49px;
   }
 }
 
