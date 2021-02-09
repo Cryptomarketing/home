@@ -233,7 +233,6 @@
 .u-section-4 .u-group-1 {
   width: 747px;
   min-height: 349px;
-  height: auto;
   margin: 23px auto 0;
 }
 
@@ -658,9 +657,9 @@
   }
 
   .u-section-9 .u-image-1 {
-    width: 859px;
-    height: 602px;
-    margin-bottom: 39px;
+    width: 885px;
+    height: auto;
+    margin: initial;
   }
 }
 
@@ -671,7 +670,8 @@
 
   .u-section-9 .u-image-1 {
     width: 641px;
-    height: 723px;
+    height: auto;
+    margin: initial;
   }
 }
 
@@ -682,8 +682,9 @@
 
   .u-section-9 .u-image-1 {
     width: 492px;
-    height: 609px;
     object-position: 0% 100%;
+    height: auto;
+    margin: initial;
   }
 }
 
@@ -694,8 +695,9 @@
 
   .u-section-9 .u-image-1 {
     width: 329px;
-    height: 474px;
     object-position: 0% 50%;
+    height: auto;
+    margin: initial;
   }
 }.u-section-10 .u-sheet-1 {
   min-height: 772px;
@@ -716,7 +718,6 @@
   grid-template-columns: calc(50% - 5px) calc(50% - 5px);
   width: 1018px;
   grid-gap: 10px 10px;
-  height: auto;
   margin: 35px auto 25px;
 }
 
@@ -855,6 +856,7 @@
 
   .u-section-10 .u-list-1 {
     min-height: 677px;
+    height: auto;
     width: 880px;
   }
 
