@@ -1,0 +1,692 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px; }
+  @media screen and (min-width: 768px) {
+    body {
+      font-size: 18px; } }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase; }
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700; }
+  @media screen and (min-width: 768px) {
+    h1 {
+      font-size: 3.5rem; } }
+
+h2 {
+  font-size: 1.5rem; }
+  @media screen and (min-width: 768px) {
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 25px; } }
+  @media screen and (min-width: 980px) {
+    h2 {
+      margin-bottom: 30px; } }
+
+h3 {
+  font-size: 1.25rem; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 1.2rem; }
+
+a {
+  text-decoration: none;
+  color: #478ac9; }
+
+blockquote {
+  font-style: italic;
+  text-align: center;
+  font-size: 1.1rem;
+  border-left: solid 3px #478ac9;
+  margin: 0 0 0 15px;
+  padding: 15px; }
+
+/* Text Properties */
+.center-text {
+  display: block;
+  text-align: center; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.big-p {
+  font-size: 1.2rem;
+  line-height: 25px;
+  margin-bottom: 24px; }
+
+/* Slider */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent; }
+
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0; }
+  .slick-list:focus {
+    outline: none; }
+  .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand; }
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+  .slick-track:before, .slick-track:after {
+    content: "";
+    display: table; }
+  .slick-track:after {
+    clear: both; }
+  .slick-loading .slick-track {
+    visibility: hidden; }
+
+.slick-slide {
+  float: left;
+  /*height: 100%;*/
+  min-height: 1px;
+  display: none; }
+  [dir="rtl"] .slick-slide {
+    float: right; }
+  .slick-slide img {
+    display: block; }
+  .slick-slide.slick-loading img {
+    display: none; }
+  .slick-slide.dragging img {
+    pointer-events: none; }
+  .slick-initialized .slick-slide {
+    display: block; }
+  .slick-loading .slick-slide {
+    visibility: hidden; }
+  .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent; }
+
+.slick-arrow.slick-hidden {
+  display: none; }
+
+/* Slider */
+.slick-loading .slick-list {
+  background: #fff url("../slick/ajax-loader.gif") center center no-repeat; }
+
+/* Icons */
+@font-face {
+  font-family: "slick";
+  src: url("../slick/fonts/slick.eot");
+  src: url("../slick/fonts/slick.eot?#iefix") format("embedded-opentype"), url("../slick/fonts/slick.woff") format("woff"), url("../slick/fonts/slick.ttf") format("truetype"), url("../slick/fonts/slick.svg#slick") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* Arrows */
+.slick-prev,
+.slick-next {
+  position: absolute;
+  display: block;
+  height: 20px;
+  width: 20px;
+  line-height: 0px;
+  font-size: 0px;
+  cursor: pointer;
+  background: transparent;
+  color: transparent;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  padding: 0;
+  border: none;
+  outline: none; }
+  .slick-prev:hover, .slick-prev:focus,
+  .slick-next:hover,
+  .slick-next:focus {
+    outline: none;
+    background: transparent;
+    color: transparent; }
+    .slick-prev:hover:before, .slick-prev:focus:before,
+    .slick-next:hover:before,
+    .slick-next:focus:before {
+      opacity: 1; }
+  .slick-prev.slick-disabled:before,
+  .slick-next.slick-disabled:before {
+    opacity: 0.25; }
+  .slick-prev:before,
+  .slick-next:before {
+    font-family: "slick";
+    font-size: 20px;
+    line-height: 1;
+    color: white;
+    opacity: 0.75;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+.slick-prev {
+  left: -25px; }
+  [dir="rtl"] .slick-prev {
+    left: auto;
+    right: -25px; }
+  .slick-prev:before {
+    content: "←"; }
+    [dir="rtl"] .slick-prev:before {
+      content: "→"; }
+
+.slick-next {
+  right: -25px; }
+  [dir="rtl"] .slick-next {
+    left: -25px;
+    right: auto; }
+  .slick-next:before {
+    content: "→"; }
+    [dir="rtl"] .slick-next:before {
+      content: "←"; }
+
+/* Dots */
+.slick-dotted.slick-slider {
+  margin-bottom: 30px; }
+
+.slick-dots {
+  position: absolute;
+  bottom: -25px;
+  list-style: none;
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%; }
+  .slick-dots li {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer; }
+    .slick-dots li button {
+      border: 0;
+      background: transparent;
+      display: block;
+      height: 20px;
+      width: 20px;
+      outline: none;
+      line-height: 0px;
+      font-size: 0px;
+      color: transparent;
+      padding: 5px;
+      cursor: pointer; }
+      .slick-dots li button:hover, .slick-dots li button:focus {
+        outline: none; }
+        .slick-dots li button:hover:before, .slick-dots li button:focus:before {
+          opacity: 1; }
+      .slick-dots li button:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "•";
+        width: 20px;
+        height: 20px;
+        font-family: "slick";
+        font-size: 6px;
+        line-height: 20px;
+        text-align: center;
+        color: #000;
+        opacity: 0.25;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale; }
+    .slick-dots li.slick-active button:before {
+      color: #000;
+      opacity: 0.75; }
+
+#mainMenu {
+  width: 100%;
+  background-color: transparent !important;
+  font-family: 'Montserrat', sans-serif; }
+  #mainMenu .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    max-width: 200px; }
+  #mainMenu ul li {
+    padding-top: 12px; }
+    #mainMenu ul li a {
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase; }
+
+.slide {
+  display: block;
+  padding: 0 15px; }
+
+a.btn, button.btn {
+  display: inline-block;
+  font-size: 1.2rem;
+  text-align: center;
+  min-width: 100px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 12px 45px;
+  border-radius: 50px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.5); }
+
+/* Layout Style FLEXBOX */
+body {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0; }
+
+figure {
+  margin: 0 0 30px 0; }
+
+.block {
+  display: block;
+  max-width: 100%;
+  padding: 50px 0 50px 0px; }
+  @media screen and (min-width: 768px) {
+    .block {
+      padding: 70px 15px 70px 15px; } }
+  @media screen and (min-width: 980px) {
+    .block {
+      padding: 80px 15px 80px 15px; } }
+  @media screen and (min-width: 1200px) {
+    .block {
+      padding: 90px 15px 90px 15px; } }
+
+.block-lt {
+  padding: 20px 0 20px 0px !important; }
+  @media screen and (min-width: 768px) {
+    .block-lt {
+      padding: 35px 15px 35px 15px !important; } }
+  @media screen and (min-width: 980px) {
+    .block-lt {
+      padding: 40px 15px 40px 15px !important; } }
+  @media screen and (min-width: 1200px) {
+    .block-lt {
+      padding: 45px 15px 45px 15px; } }
+
+.center-block {
+  display: block;
+  margin: 0 auto; }
+
+.mb30 {
+  margin-bottom: 30px !important; }
+
+.padding-top-none {
+  padding-top: 0 !important; }
+
+.padding-bottom-none {
+  padding-bottom: 0 !important; }
+
+.iframe-responsive {
+  position: relative;
+  padding-bottom: 66.66%;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 10px; }
+  .iframe-responsive div img.imagen-previa {
+    display: block;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: auto; }
+  .iframe-responsive div div.youtube-play {
+    height: 64px;
+    width: 64px;
+    left: 50%;
+    top: 50%;
+    margin-left: -36px;
+    margin-top: -36px;
+    opacity: 0.7;
+    position: absolute;
+    background: url("https://cdn2.iconfinder.com/data/icons/social-icons-color/512/youtube-64.png") no-repeat; }
+  .iframe-responsive div div.youtube-play:hover {
+    opacity: 1; }
+  .iframe-responsive div #youtube-iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+.iframe-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/* Project Main Colors */
+.black {
+  color: #111111; }
+
+.dark-bg {
+  color: #fff;
+  background-color: #555145; }
+  .dark-bg a {
+    color: #ffffff; }
+    .dark-bg a :hover {
+      color: #f2f2f2; }
+
+#contactForm {
+  color: #ffffff; }
+
+.form-group {
+  margin-bottom: 25px;
+  background-color: #797979;
+  padding: 15px 20px;
+  border-radius: 15px; }
+
+.resultados {
+  display: none;
+  text-align: left;
+  margin-bottom: 10px;
+  right: 0;
+  padding: 10px;
+  background-color: #FFBA00;
+  color: #696969; }
+
+#server-results img {
+  display: block;
+  max-width: 50px;
+  height: auto; }
+
+.elite-body {
+  background-image: url("/images/Fondo_Cryptomarketing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+  .elite-body header .dark-bg {
+    background-color: #000000; }
+    .elite-body header .dark-bg div div div #mainMenu {
+      color: #fff;
+      border: none !important; }
+      .elite-body header .dark-bg div div div #mainMenu .navbar-brand {
+        color: #fff; }
+      .elite-body header .dark-bg div div div #mainMenu ul li a {
+        color: #fff; }
+
+.dinamic-bg {
+  background-image: url("/images/elite_coins-BG.pg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center right;
+  position: fixed;
+  display: block;
+  width: 95%;
+  height: 300px;
+  right: 0;
+  top: 67%;
+  z-index: -1; }
+  @media screen and (min-width: 768px) {
+    .dinamic-bg {
+      height: 400px;
+      top: 56%; } }
+  @media screen and (min-width: 1200px) {
+    .dinamic-bg {
+      height: 550px;
+      top: 50%; } }
+
+#eliteMheader {
+  background: black;
+  background: linear-gradient(180deg, black 0%, rgba(0, 0, 0, 0.8071603641) 29%, rgba(0, 0, 0, 0) 100%); }
+  #eliteMheader .marquee {
+    margin: 0; }
+    #eliteMheader .marquee .col h1 {
+      margin-bottom: 30px; }
+    #eliteMheader .marquee .col img {
+      max-width: 190px; }
+      @media screen and (min-width: 768px) {
+        #eliteMheader .marquee .col img {
+          max-width: 215px; } }
+    #eliteMheader .marquee .col .contenedor {
+      display: block;
+      margin: 20px auto;
+      width: 100%; }
+      #eliteMheader .marquee .col .contenedor .reproductor {
+        display: block;
+        width: 100%;
+        padding-bottom: 56.25%;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer; }
+        #eliteMheader .marquee .col .contenedor .reproductor div img.imagen-previa {
+          display: block;
+          left: 0;
+          bottom: 0;
+          margin: auto;
+          max-width: 100%;
+          width: 100%;
+          position: absolute;
+          right: 0;
+          top: 0;
+          height: auto; }
+        #eliteMheader .marquee .col .contenedor .reproductor div div.youtube-play {
+          height: 64px;
+          width: 64px;
+          left: 50%;
+          top: 50%;
+          margin-left: -36px;
+          margin-top: -36px;
+          opacity: 0.7;
+          position: absolute;
+          background: url("https://cdn2.iconfinder.com/data/icons/social-icons-color/512/youtube-64.png") no-repeat; }
+        #eliteMheader .marquee .col .contenedor .reproductor div div.youtube-play:hover {
+          opacity: 1; }
+        #eliteMheader .marquee .col .contenedor .reproductor div #youtube-iframe {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0; }
+
+#elitecontent .container .row .col {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  @media screen and (min-width: 890px) {
+    #elitecontent .container .row .col {
+      padding-left: 40px;
+      padding-right: 40px; } }
+  #elitecontent .container .row .col h2 {
+    font-size: 1.1rem; }
+  #elitecontent .container .row .col h3 {
+    margin-top: 15px;
+    font-size: 1.05rem;
+    margin-bottom: 10px; }
+
+.eliteScript {
+  margin-bottom: 15px; }
+  .eliteScript button {
+    padding: 7px 15px; }
+  .eliteScript div button {
+    padding: 7px 15px; }
+  .eliteScript div table {
+    background-color: #fff;
+    overflow-y: scroll;
+    display: flex; }
+    @media screen and (min-width: 768px) {
+      .eliteScript div table {
+        display: table;
+        overflow: none; } }
+
+.moreVideo .col-12 {
+  margin-bottom: 30px; }
+
+.instructions {
+  text-align: left; }
+
+/* Corporative CSS */
+ul li {
+  padding-bottom: 12px;
+  font-style: italic; }
+
+figure figcaption {
+  text-align: center;
+  margin-bottom: 20px; }
+  @media screen and (min-width: 768px) {
+    figure figcaption {
+      text-align: left; } }
+
+.crypto_slogan_bar {
+  font-size: 10px;
+  padding: 10px 0; }
+  @media screen and (min-width: 768px) {
+    .crypto_slogan_bar {
+      font-size: 22px; } }
+  @media screen and (min-width: 1280px) {
+    .crypto_slogan_bar {
+      font-size: 26px; } }
+
+.slogan {
+  display: none;
+  vertical-align: middle; }
+
+.slogan.current {
+  display: block; }
+
+.marquee {
+  margin: 40px 0; }
+  @media screen and (min-width: 768px) {
+    .marquee {
+      margin: 50px 0; } }
+  @media screen and (min-width: 1280px) {
+    .marquee {
+      margin: 80px 0; } }
+
+.crypto-title {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 15px; }
+  @media screen and (min-width: 768px) {
+    .crypto-title {
+      font-size: 2rem;
+      margin-bottom: 10px; } }
+  @media screen and (min-width: 1280px) {
+    .crypto-title {
+      font-size: 3rem; } }
+
+.bigH1 {
+  font-size: 1.8rem;
+  line-height: 30px; }
+  @media screen and (min-width: 768px) {
+    .bigH1 {
+      font-size: 3.5rem;
+      line-height: 85px; } }
+
+.crypto-subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 0;
+  text-transform: initial; }
+  @media screen and (min-width: 768px) {
+    .crypto-subtitle {
+      font-size: 2rem; } }
+
+.position {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+  text-transform: initial; }
+  @media screen and (min-width: 768px) {
+    .position {
+      margin-bottom: 20px; } }
+  .position span {
+    font-weight: 700;
+    font-size: 1.35rem; }
+
+.social-collage {
+  margin: 30px 0; }
+  .social-collage ul {
+    margin: 0 -5px 0 -5px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start; }
+    .social-collage ul li {
+      flex-grow: 0;
+      max-width: 16.66%;
+      padding: 0 5px 10px 5px;
+      border: 0; }
+      @media screen and (min-width: 768px) {
+        .social-collage ul li {
+          max-width: 20%; } }
+      .social-collage ul li img {
+        display: block;
+        max-width: 100%;
+        height: auto; }
+
+.service h3 {
+  text-align: center; }
+.service ul {
+  font-style: normal;
+  font-size: 1rem; }
+
+.svgico {
+  display: block;
+  max-width: 95px;
+  margin: 0 auto 30px auto;
+  padding: 20px;
+  background-color: #555145;
+  border-radius: 50%; }
+  .svgico svg {
+    fill: #fff;
+    background-color: transparent;
+    display: block;
+    width: 55px;
+    height: 55px; }
+
+.partner img {
+  margin-bottom: 15px; }
+.partner h3 {
+  margin-bottom: 20px; }
+  .partner h3 a {
+    display: inline-block;
+    text-transform: lowercase;
+    font-size: 1rem;
+    margin-top: 6px; }
+
+.step {
+  background-image: url("images/flecha-2.png");
+  background-repeat: repeat-x;
+  background-position: center left;
+  background-size: 5%; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,169 @@
+@import "style_components/fonts.scss";
+@import "../slick/slick.scss";
+@import "../slick/slick-theme.scss";
+@import "style_components/navbar.scss";
+@import "style_components/carrousel.scss";
+@import "style_components/buttons.scss";
+@import "style_components/layout.scss";
+@import "style_components/theme_colors.scss";
+@import "style_components/forms";
+@import "style_components/elite.scss";
+
+/* Corporative CSS */
+ul{
+    li{
+        padding-bottom: 12px;
+        font-style: italic;
+    }
+}
+figure{
+    figcaption{
+        text-align: center;
+        margin-bottom: 20px;
+        @media screen and (min-width:768px){
+            text-align: left;
+        }
+    }
+}
+.crypto_slogan_bar{
+    font-size: 10px;
+    padding: 10px 0;
+    @media screen and (min-width:768px){
+        font-size: 22px;
+    }
+    @media screen and (min-width:1280px){
+        font-size: 26px;
+    }
+}
+.slogan{
+    display: none;
+    vertical-align: middle;
+}
+.slogan.current{
+    display: block;
+}
+.marquee{
+    margin: 40px 0;
+    @media screen and (min-width:768px){
+        margin: 50px 0;
+    }
+    @media screen and (min-width:1280px){
+        margin: 80px 0;
+    }
+}
+.crypto-title{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 15px;
+    @media screen and (min-width:768px){
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    @media screen and (min-width:1280px){
+        font-size: 3rem;
+    }
+}
+.bigH1{
+    font-size: 1.8rem;
+    line-height: 30px;
+    @media screen and (min-width:768px){
+        font-size: 3.5rem;
+        line-height: 85px;
+    }
+}
+.crypto-subtitle{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 0;
+    text-transform: initial;
+    @media screen and (min-width:768px){
+        font-size: 2rem;
+    }
+}
+.position{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-transform: initial;
+    @media screen and (min-width:768px){
+        margin-bottom: 20px;
+    }
+    span{
+        font-weight: 700;
+        font-size: 1.35rem;
+    }
+}
+.social-collage{
+    margin: 30px 0;
+    ul{
+        margin: 0 -5px 0 -5px;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        li{
+            flex-grow: 0;
+            max-width: 16.66%;
+            padding: 0 5px 10px 5px;
+            border: 0;
+            @media screen and (min-width:768px){
+                max-width: 20%;
+            }
+            img{
+                display: block;
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+.service{
+    h3{
+        text-align: center;
+    }
+    ul{
+        //padding-left: 0;
+        //text-align: center;
+        //list-style: none;
+        font-style: normal;
+        font-size: 1rem;
+    }
+}
+.svgico{
+    display: block;
+    max-width: 95px;
+    margin: 0 auto 30px auto;
+    padding: 20px;
+    background-color: #555145;
+    border-radius: 50%;
+    svg{
+       fill: #fff;
+       background-color: transparent;
+       display: block;
+       width: 55px;
+       height: 55px;
+    }
+}
+.partner{
+    img{
+        margin-bottom: 15px;
+    }
+    h3{
+        margin-bottom: 20px;
+        a{
+            display: inline-block;
+            text-transform: lowercase;
+            font-size: 1rem;
+            margin-top: 6px;
+        }
+    }
+}
+.step{
+    background-image: url('images/flecha-2.png');
+    background-repeat: repeat-x;
+    background-position: center left;
+    background-size: 5%;
+}

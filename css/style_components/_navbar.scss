@@ -1,0 +1,23 @@
+#mainMenu{
+    width: 100%;
+    background-color: transparent!important;
+    //color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    .navbar-brand{
+        //color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        max-width: 200px;
+    }
+    ul{
+        li{
+            padding-top: 12px;
+            a{
+                font-family: 'Montserrat', sans-serif;
+                text-transform: uppercase;
+                //color: #fff;
+            }
+        }
+    }
+}
+
