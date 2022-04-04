@@ -36389,6 +36389,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-nav-1 {
   font-weight: 700;
   font-size: 1.25rem;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -36398,14 +36399,18 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-text-1 {
     margin-left: 71px;
   }
-
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
-  }
 }
 
 
+@media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 86px;
+  }
 
+  .u-header .u-menu-1 {
+    margin-bottom: 14px;
+  }
+}
  .u-footer {
   background-image: none;
 }
