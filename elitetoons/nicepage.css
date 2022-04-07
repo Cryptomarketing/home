@@ -37283,9 +37283,13 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: -40px auto 39px 116px;
 }
 @media (max-width: 1199px) {
+  .u-header .u-image-1 {
+    margin-top: 8px;
+  }
+
   .u-header .u-menu-1 {
     width: auto;
-    margin-top: -71px;
+    margin-top: -59px;
   }
 
   .u-header .u-text-1 {
@@ -37294,10 +37298,6 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 991px) {
-  .u-header .u-menu-1 {
-    margin-top: -59px;
-  }
-
   .u-header .u-text-1 {
     width: auto;
     margin-top: -35px;
