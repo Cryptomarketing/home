@@ -37338,7 +37338,14 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 
-
+@media (max-width: 575px) {
+  .u-footer .u-image-1 {
+    width: 238px;
+    height: 56px;
+    margin-top: 52px;
+    margin-bottom: 52px;
+  }
+}
 
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
