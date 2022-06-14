@@ -517,6 +517,13 @@ legend {
 }
 textarea {
   overflow: auto;
+  outline: none;
+}
+button,
+select,
+input,
+textarea {
+  outline: none;
 }
 [type="checkbox"],
 [type="radio"] {
@@ -1614,23 +1621,6 @@ a {
 .u-form-vertical .u-form-group {
   width: 100%;
 }
-.u-form-vertical .u-label-left {
-  display: flex;
-}
-.u-form-vertical .u-label-left label {
-  flex: none;
-  width: 100px;
-}
-.u-form-vertical .u-label-left label + input,
-.u-form-vertical .u-label-left label + textarea {
-  flex-grow: 1;
-}
-.u-form-vertical .u-form-submit.u-label-left label {
-  pointer-events: none;
-}
-.u-form-vertical .u-form-submit.u-label-left .u-btn-submit {
-  pointer-events: auto;
-}
 .u-form-vertical .u-form-partition-factor-10 {
   width: 10%;
 }
@@ -1666,6 +1656,23 @@ a {
     width: 100%;
   }
 }
+.u-label-left {
+  display: flex;
+}
+.u-label-left label {
+  flex: none;
+  width: 100px;
+}
+.u-label-left label + input,
+.u-label-left label + textarea {
+  flex-grow: 1;
+}
+.u-form-submit.u-label-left label {
+  pointer-events: none;
+}
+.u-form-submit.u-label-left .u-btn-submit {
+  pointer-events: auto;
+}
 .u-form-horizontal .u-form-group:not(.u-label-top) {
   display: flex;
   flex: 0 0 auto;
@@ -1694,7 +1701,7 @@ a {
   flex-shrink: 1;
   min-width: 0px;
 }
-.u-label-none label {
+.u-label-none:not(.u-form-agree) label {
   display: none !important;
 }
 .u-form-horizontal .input-group {
@@ -1994,6 +2001,47 @@ a {
 .u-btn-submit-container {
   width: 100%;
   pointer-events: none;
+}
+.u-form-file-upload input[type="file"] {
+  display: none !important;
+}
+.u-form-file-upload .u-file-template {
+  display: none !important;
+}
+.u-form-file-upload .u-file-input-wrapper,
+.u-form-file-upload .u-file-list,
+.u-form-file-upload .u-file-item {
+  display: flex;
+}
+.u-form-file-upload .u-file-input-wrapper {
+  flex-wrap: wrap;
+}
+.u-form-file-upload .u-file-item {
+  align-items: center;
+}
+.u-form-file-upload .u-file-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: normal;
+}
+.u-form-file-upload .u-file-list {
+  flex: 1 0 auto;
+  flex-direction: column;
+  max-width: 100%;
+}
+.u-form-file-upload .u-file-remove {
+  margin-left: 0.5em;
+}
+.u-form-file-upload .u-upload-button {
+  margin: 0 0.5em 0 0;
+}
+.u-form-file-upload .u-file-remove {
+  cursor: pointer;
+}
+.u-form-file-upload .u-file-max {
+  flex-basis: 100%;
+  margin-top: 0.5em;
+  margin-bottom: 0;
 }
 *,
 *:before,
@@ -18637,7 +18685,7 @@ a.pswp__share--download:hover {
 }
 .u-custom-list li {
   position: relative;
-  margin-left: 1.4em;
+  margin-left: 1.1em;
 }
 .u-custom-list .u-list-icon {
   display: inline-block;
@@ -18645,7 +18693,7 @@ a.pswp__share--download:hover {
   width: 1em;
   min-height: 1em;
   height: auto;
-  left: -1.5em;
+  left: -1.2em;
   fill: currentColor;
   text-align: center;
 }
