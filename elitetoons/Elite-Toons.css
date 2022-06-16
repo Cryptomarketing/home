@@ -1,5 +1,6 @@
  .u-section-1 {
-  background-image: url("images/loadingelitetoons.jpeg");
+  background-image: url("images/loadingelitetoonscur.jpeg.png");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -8,11 +9,15 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 485px;
+    min-height: 468px;
   }
 }
 
 @media (max-width: 575px) {
+   .u-section-1 {
+    background-size: auto 120%;
+  }
+
   .u-section-1 .u-sheet-1 {
     min-height: 265px;
   }
