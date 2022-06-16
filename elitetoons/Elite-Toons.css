@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: url("images/loadingelitetoonscur.jpeg.png");
+  background-image: url("images/Pantallacarga_imagencompleta.jpeg");
   background-position: 50% 50%;
 }
 
@@ -29,7 +29,6 @@
   min-height: 455px;
   margin-top: 0;
   margin-bottom: 0;
-  height: auto;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -45,12 +44,6 @@
   font-size: 1.25rem;
   font-weight: 300;
   margin: 24px 0 0;
-}
-
-@media (max-width: 1199px) {
-  .u-section-2 .u-group-1 {
-    height: auto;
-  }
 }
 
 @media (max-width: 991px) {
