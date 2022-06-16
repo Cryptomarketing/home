@@ -37588,21 +37588,31 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-bottom: 48px;
   }
 }
+@media (max-width: 767px) {
+  .u-header .u-sheet-1 {
+    min-height: 92px;
+  }
 
+  .u-header .u-image-1 {
+    margin-top: 8px;
+  }
+
+  .u-header .u-text-1 {
+    margin-bottom: 14px;
+  }
+}
 @media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 122px;
+  }
+
   .u-header .u-image-1 {
     width: 76px;
     margin-left: -12px;
   }
 
-  .u-header .u-menu-1 {
-    margin-top: -57px;
-  }
-
   .u-header .u-text-1 {
     font-size: 1.875rem;
-    margin-top: -38px;
-    margin-bottom: 46px;
   }
 }
  .u-footer {
