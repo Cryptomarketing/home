@@ -93,6 +93,7 @@
 
 .u-section-3 .u-text-2 {
   background-image: none;
+  font-size: 2.25rem;
   margin: 13px auto 29px;
 }
 
@@ -110,7 +111,6 @@
     width: auto;
     transition-duration: 0.5s;
     margin-top: 6px;
-    font-size: 2.25rem;
   }
 }
 
@@ -154,7 +154,6 @@
     margin-top: 9px;
     margin-left: auto;
     margin-bottom: 6px;
-    font-size: 1.5rem;
   }
 }
 
@@ -326,6 +325,9 @@
 
 .u-section-5 .u-carousel-thumbnails-1 {
   padding-top: 10px;
+  height: 110px;
+  margin-right: -33px;
+  margin-left: -33px;
 }
 
 .u-section-5 .u-carousel-thumbnail-1 {
@@ -596,7 +598,7 @@
 }
 
 .u-section-6 .u-sheet-1 {
-  min-height: 279px;
+  min-height: 230px;
 }
 
 .u-section-6 .u-text-1 {
@@ -610,11 +612,6 @@
   font-weight: 700;
   width: 880px;
   margin: 26px auto 0;
-}
-
-.u-section-6 .u-text-3 {
-  font-size: 1.5rem;
-  margin: 26px 0 51px;
 }
 
 @media (max-width: 1199px) {
@@ -631,11 +628,6 @@
     width: auto;
     margin-left: 30px;
     margin-right: 30px;
-  }
-
-  .u-section-6 .u-text-3 {
-    width: auto;
-    margin: 30px 30px 60px;
   }
 }
 
@@ -654,10 +646,6 @@
     margin-left: 0;
     margin-right: 0;
   }
-
-  .u-section-6 .u-text-3 {
-    margin: 21px 8px;
-  }
 }
 
 @media (max-width: 767px) {
@@ -667,11 +655,6 @@
 
   .u-section-6 .u-text-2 {
     font-size: 1.5rem;
-  }
-
-  .u-section-6 .u-text-3 {
-    font-size: 1.25rem;
-    margin: 31px 6px;
   }
 }
 
@@ -687,57 +670,58 @@
   .u-section-6 .u-text-2 {
     font-size: 1.25rem;
   }
-
-  .u-section-6 .u-text-3 {
-    font-size: 1.125rem;
-    margin-left: 0;
-    margin-right: 0;
-  }
 } .u-section-7 {
   background-image: url("images/Elite_Mapa_relievemarco1.png");
   background-position: 41.4% 37.27%;
-  min-height: 800px;
+  min-height: 808px;
 }
 
 @media (max-width: 1199px) {
    .u-section-7 {
     background-size: 105%;
-    min-height: 660px;
+    min-height: 666px;
   }
 }
 
 @media (max-width: 991px) {
    .u-section-7 {
-    min-height: 506px;
+    min-height: 510px;
   }
 }
 
 @media (max-width: 767px) {
    .u-section-7 {
-    min-height: 380px;
+    min-height: 383px;
   }
 }
 
 @media (max-width: 575px) {
    .u-section-7 {
     background-position: 50.11% 17.35%;
-    min-height: 239px;
+    min-height: 241px;
   }
 }.u-section-8 .u-sheet-1 {
-  min-height: 125px;
+  min-height: 179px;
 }
 
 .u-section-8 .u-text-1 {
+  font-weight: 700;
+  font-size: 3.75rem;
+  margin: 14px auto 0;
+}
+
+.u-section-8 .u-text-2 {
   font-size: 2.25rem;
-  margin: 50px auto 36px;
+  margin: 14px auto 0;
+}
+
+.u-section-8 .u-text-3 {
+  font-size: 1.5rem;
+  margin: 20px auto;
 }
 
 @media (max-width: 767px) {
-  .u-section-8 .u-sheet-1 {
-    min-height: 133px;
-  }
-
-  .u-section-8 .u-text-1 {
+  .u-section-8 .u-text-2 {
     font-size: 1.875rem;
     width: auto;
     margin-right: -32px;
@@ -748,6 +732,10 @@
 
 @media (max-width: 575px) {
   .u-section-8 .u-text-1 {
+    font-size: 1.875rem;
+  }
+
+  .u-section-8 .u-text-2 {
     margin-left: 0;
     margin-right: 0;
     font-size: 1.5rem;
@@ -1109,13 +1097,13 @@
     margin-left: initial;
   }
 }.u-section-13 .u-sheet-1 {
-  min-height: 182px;
+  min-height: 100px;
 }
 
 .u-section-13 .u-text-1 {
   font-weight: 700;
   font-size: 3.75rem;
-  margin: 51px auto 60px;
+  margin: 48px auto 0;
 }
 
 @media (max-width: 1199px) {
@@ -1148,7 +1136,7 @@
 
 .u-section-14 .u-text-1 {
   font-weight: 700;
-  margin: 41px auto 60px;
+  margin: 9px auto 60px;
 }
 
 @media (max-width: 1199px) {
@@ -1170,12 +1158,12 @@
     margin-top: 23px;
   }
 }.u-section-15 .u-sheet-1 {
-  min-height: 99px;
+  min-height: 115px;
 }
 
 .u-section-15 .u-text-1 {
   width: 823px;
-  margin: 30px auto;
+  margin: 11px auto 26px;
 }
 
 @media (max-width: 1199px) {
@@ -1193,7 +1181,8 @@
 
   .u-section-15 .u-text-1 {
     width: 575px;
-    margin: 17px auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -1204,8 +1193,6 @@
 
   .u-section-15 .u-text-1 {
     width: 540px;
-    margin-top: 46px;
-    margin-bottom: 20px;
   }
 }
 
@@ -1216,7 +1203,8 @@
 
   .u-section-15 .u-text-1 {
     width: auto;
-    margin: 17px 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 } .u-section-16 {
   background-image: url("images/Tira-1-ret-FINAL-1024x692.jpeg");
@@ -1351,8 +1339,10 @@
   }
 
   .u-section-18 .u-image-1 {
+    height: 200px;
     margin-top: 67px;
     margin-bottom: 38px;
+    width: 100%;
   }
 }
 
