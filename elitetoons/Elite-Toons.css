@@ -154,6 +154,7 @@
     margin-top: 9px;
     margin-left: auto;
     margin-bottom: 6px;
+    font-size: 1.5rem;
   }
 }
 
@@ -721,12 +722,20 @@
 }
 
 @media (max-width: 767px) {
+  .u-section-8 .u-sheet-1 {
+    min-height: 245px;
+  }
+
   .u-section-8 .u-text-2 {
     font-size: 1.875rem;
     width: auto;
     margin-right: -32px;
-    margin-bottom: 50px;
     margin-left: -19px;
+  }
+
+  .u-section-8 .u-text-3 {
+    width: auto;
+    margin: 31px 0;
   }
 }
 
@@ -901,7 +910,7 @@
 }
 
 .u-section-12 .u-sheet-1 {
-  min-height: 905px;
+  min-height: 625px;
 }
 
 .u-section-12 .u-text-1 {
@@ -925,52 +934,120 @@
 }
 
 .u-section-12 .u-gallery-1 {
-  height: 552px;
-  grid-gap: 17px 17px;
-  width: 969px;
-  margin: 35px auto 60px;
+  height: 375px;
+  width: 1140px;
+  margin: 0 auto 0 -19px;
 }
 
-.u-section-12 .u-gallery-inner-1 {
-  grid-template-columns: auto auto auto;
-  grid-gap: 30px 30px;
+.u-section-12 .u-carousel-item-1 {
+  margin-right: 0;
 }
 
 .u-section-12 .u-over-slide-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
-  padding: 20px;
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-12 .u-carousel-item-2 {
+  margin-right: 0;
 }
 
 .u-section-12 .u-over-slide-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
-  padding: 20px;
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-12 .u-carousel-item-3 {
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .u-section-12 .u-over-slide-3 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
-  padding: 20px;
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-12 .u-carousel-item-4 {
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .u-section-12 .u-over-slide-4 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
-  padding: 20px;
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-12 .u-carousel-item-5 {
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .u-section-12 .u-over-slide-5 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
-  padding: 20px;
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-12 .u-carousel-item-6 {
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .u-section-12 .u-over-slide-6 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
-  padding: 20px;
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-12 .u-carousel-thumbnail-1 {
+  width: 100px;
+  height: 100px;
+}
+
+.u-section-12 .u-carousel-thumbnail-2 {
+  width: 100px;
+  height: 100px;
+}
+
+.u-section-12 .u-carousel-thumbnail-1 {
+  width: 100px;
+  height: 100px;
+}
+
+.u-section-12 .u-carousel-thumbnail-1 {
+  width: 100px;
+  height: 100px;
+}
+
+.u-section-12 .u-carousel-thumbnail-1 {
+  width: 100px;
+  height: 100px;
+}
+
+.u-section-12 .u-carousel-thumbnail-1 {
+  width: 100px;
+  height: 100px;
+}
+
+.u-section-12 .u-carousel-control-1 {
+  position: absolute;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+
+.u-section-12 .u-carousel-control-2 {
+  position: absolute;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
 }
 
 @media (max-width: 1199px) {
-  .u-section-12 .u-sheet-1 {
-    min-height: 810px;
-  }
-
   .u-section-12 .u-text-1 {
     margin-top: 39px;
   }
@@ -988,27 +1065,15 @@
   }
 
   .u-section-12 .u-gallery-1 {
-    height: 536px;
-    margin-top: 24px;
-    margin-bottom: 28px;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
-  }
-
-  .u-section-12 .u-gallery-inner-1 {
-    grid-template-columns: repeat(3, auto);
+    width: 940px;
+    margin-left: 0;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-12 .u-sheet-1 {
-    min-height: 1225px;
-  }
-
   .u-section-12 .u-text-1 {
     width: 541px;
-    margin-top: 45px;
+    margin-top: 69px;
   }
 
   .u-section-12 .u-text-2 {
@@ -1023,26 +1088,18 @@
   }
 
   .u-section-12 .u-gallery-1 {
-    height: 924px;
-    margin-top: 39px;
-    margin-bottom: 45px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
-  }
-
-  .u-section-12 .u-gallery-inner-1 {
-    grid-template-columns: repeat(2, auto);
+    width: 720px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-12 .u-sheet-1 {
-    min-height: 3117px;
+    min-height: 584px;
   }
 
   .u-section-12 .u-text-1 {
     width: auto;
+    margin-top: 19px;
     margin-left: 0;
     margin-right: 0;
   }
@@ -1059,22 +1116,16 @@
   }
 
   .u-section-12 .u-gallery-1 {
-    height: 2772px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    width: 540px;
   }
 
-  .u-section-12 .u-gallery-inner-1 {
-    grid-template-columns: repeat(1, auto);
+  .u-section-12 .u-carousel-thumbnail-2 {
+    width: 90px;
+    height: 90px;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-12 .u-sheet-1 {
-    min-height: 1995px;
-  }
-
   .u-section-12 .u-text-1 {
     font-size: 1.875rem;
   }
@@ -1091,10 +1142,12 @@
   }
 
   .u-section-12 .u-gallery-1 {
-    height: 1745px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    width: 340px;
+  }
+
+  .u-section-12 .u-carousel-thumbnail-2 {
+    width: 57px;
+    height: 57px;
   }
 }.u-section-13 .u-sheet-1 {
   min-height: 100px;
@@ -1153,9 +1206,16 @@
   }
 }
 
+@media (max-width: 767px) {
+  .u-section-14 .u-text-1 {
+    font-size: 1.875rem;
+  }
+}
+
 @media (max-width: 575px) {
   .u-section-14 .u-text-1 {
     margin-top: 23px;
+    font-size: 1.5rem;
   }
 }.u-section-15 .u-sheet-1 {
   min-height: 115px;
@@ -1193,6 +1253,7 @@
 
   .u-section-15 .u-text-1 {
     width: 540px;
+    font-size: 1.875rem;
   }
 }
 
@@ -1205,6 +1266,7 @@
     width: auto;
     margin-left: 0;
     margin-right: 0;
+    font-size: 1.5rem;
   }
 } .u-section-16 {
   background-image: url("images/Tira-1-ret-FINAL-1024x692.jpeg");
@@ -1657,8 +1719,12 @@
 }
 
 @media (max-width: 767px) {
+  .u-section-20 .u-sheet-1 {
+    min-height: 1673px;
+  }
+
   .u-section-20 .u-text-1 {
-    margin-top: 60px;
+    margin-top: 37px;
   }
 
   .u-section-20 .u-repeater-1 {
