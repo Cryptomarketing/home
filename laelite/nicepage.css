@@ -22787,7 +22787,7 @@ a.u-button-style.u-border-20 {
 }
 /*begin-variables font-family*/
 .u-body {
-  font-family: Raleway,sans-serif;
+  font-family: Arial,sans-serif;
 }
 h1,
 h2,
@@ -22795,7 +22795,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Lobster,cursive;
+  font-family: Arial,sans-serif;
 }
 /*end-variables font-family*/
 /*begin-variables color*/
@@ -22816,10 +22816,10 @@ h6 {
 /*end-variables color*/
 /*begin-variables font*/
 .u-custom-font.u-text-font {
-  font-family: Raleway,sans-serif !important;
+  font-family: Arial,sans-serif !important;
 }
 .u-custom-font.u-heading-font {
-  font-family: Lobster,cursive !important;
+  font-family: Arial,sans-serif !important;
 }
 /*end-variables font*/
 /*begin-variables colors*/
@@ -38253,13 +38253,12 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
-    min-height: 99px;
+    min-height: 103px;
   }
 
   .u-footer .u-text-1 {
-    width: 417px;
-    margin-left: 262px;
-    margin-right: 248px;
+    width: 435px;
+    margin: 40px auto 39px;
   }
 }
 @media (max-width: 991px) {
@@ -38268,6 +38267,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-text-1 {
+    width: 435px;
     margin-left: 152px;
     margin-right: 138px;
   }
@@ -38289,8 +38289,8 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-text-1 {
     width: 340px;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
