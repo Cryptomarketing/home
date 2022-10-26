@@ -38239,7 +38239,22 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-right: 0;
   }
 }
+@media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 244px;
+  }
 
+  .u-header .u-image-1 {
+    width: 178px;
+    height: 107px;
+    margin-top: 34px;
+  }
+
+  .u-header .u-text-1 {
+    margin-top: 27px;
+    margin-bottom: 10px;
+  }
+}
  .u-footer {
   background-image: none;
 }
