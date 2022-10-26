@@ -452,26 +452,33 @@
   }
 
   .u-section-5 .u-layout-cell-1 {
-    min-height: 495px;
+    min-height: 636px;
   }
 
   .u-section-5 .u-container-layout-1 {
-    padding-left: 37px;
-    padding-right: 37px;
+    padding-left: 35px;
+    padding-right: 35px;
   }
 
   .u-section-5 .u-image-1 {
     margin-top: 6px;
-    margin-right: -2px;
+    margin-right: 0;
   }
 
   .u-section-5 .u-text-1 {
-    margin-top: 127px;
+    width: auto;
+    margin-top: 72px;
   }
 
   .u-section-5 .u-text-2 {
-    margin-left: 13px;
+    width: auto;
+    margin-top: 92px;
     margin-right: 13px;
+    margin-left: 17px;
+  }
+
+  .u-section-5 .u-btn-1 {
+    margin-top: 49px;
   }
 
   .u-section-5 .u-image-2 {
