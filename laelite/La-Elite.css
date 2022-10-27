@@ -545,7 +545,7 @@
 
 .u-section-6 .u-text-2 {
   font-size: 1.875rem;
-  margin: 28px 0 0;
+  margin: 17px auto 41px;
 }
 
 @media (max-width: 1199px) {
@@ -565,8 +565,8 @@
   }
 
   .u-section-6 .u-text-2 {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 24px;
   }
 }
