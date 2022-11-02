@@ -1869,7 +1869,7 @@ a {
   flex-shrink: 1;
   min-width: 0px;
 }
-.u-label-none:not(.u-form-agree):not(.u-form-checkbox):not(.u-form-checkbox-group):not(.u-form-radiobutton) label {
+.u-label-none:not(.u-form-agree):not(.u-form-checkbox) > label {
   display: none !important;
 }
 .u-form-horizontal .input-group {
@@ -2217,7 +2217,7 @@ a {
   margin-top: 0.5em;
   margin-bottom: 0;
 }
-.u-form-text .u-text {
+.u-form-text.u-text {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -2244,15 +2244,24 @@ a {
 .u-form-input-layout-horizontal .u-form-checkbox-group-wrapper .u-input-row {
   margin-right: 1em;
 }
-.u-rating-icons {
+.u-form-rating .u-input-hidden {
+  height: 100%;
+  width: 0 !important;
+  opacity: 0;
+  flex-grow: 0;
+  float: right;
+  display: block;
+  border: none;
+  pointer-events: none;
+  margin-left: -12%;
+}
+.u-form-rating .u-rating-icons {
   display: flex;
 }
-.u-rating-icons .u-form-rating-item {
+.u-form-rating .u-rating-icons .u-form-rating-item {
   display: inline;
   line-height: 0;
-}
-.u-rating-icons .u-passive-icon {
-  display: none;
+  cursor: pointer;
 }
 .u-form-horizontal .u-form-rating.u-form-group {
   display: none;
@@ -38217,42 +38226,54 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 281px;
+  min-height: 200px;
 }
 
 .u-header .u-image-1 {
   width: 230px;
   height: 138px;
-  margin: 35px auto 0;
+  margin: 32px auto 30px;
 }
+@media (max-width: 1199px) {
+  .u-header .u-sheet-1 {
+    min-height: 161px;
+  }
 
-.u-header .u-text-1 {
-  font-weight: 700;
-  margin: 21px auto 22px;
+  .u-header .u-image-1 {
+    width: 207px;
+    height: 124px;
+    margin-top: 18px;
+    margin-bottom: 17px;
+  }
 }
+@media (max-width: 991px) {
+  .u-header .u-sheet-1 {
+    min-height: 145px;
+  }
 
-
+  .u-header .u-image-1 {
+    width: 186px;
+    height: 112px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+  }
+}
 @media (max-width: 767px) {
-  .u-header .u-text-1 {
-    width: auto;
-    margin-left: 0;
-    margin-right: 0;
+  .u-header .u-image-1 {
+    width: 186px;
+    height: 111px;
   }
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 244px;
+    min-height: 169px;
   }
 
   .u-header .u-image-1 {
     width: 178px;
     height: 107px;
-    margin-top: 34px;
-  }
-
-  .u-header .u-text-1 {
-    margin-top: 27px;
-    margin-bottom: 10px;
+    margin-top: 31px;
+    margin-bottom: 31px;
   }
 }
  .u-footer {
